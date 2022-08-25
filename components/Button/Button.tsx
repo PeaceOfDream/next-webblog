@@ -18,7 +18,7 @@ export const Button: React.FC<ButtonProps> = ({ appearance,arrow = 'none', child
 			[styles.down]: arrow == 'down'
 		})}>
 			<ArrowIcon/>
-			</span>}
+			</span >}
     </button>
   );
 };
